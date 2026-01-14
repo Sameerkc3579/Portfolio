@@ -56,7 +56,7 @@ export default function About() {
 
                     <div className="space-y-4 text-lg text-gray-700 dark:text-gray-300 font-light leading-relaxed">
                         <p>
-                            Hi I'm <span className="font-semibold text-black dark:text-white">Sameer</span>, an <span className="font-semibold text-black dark:text-white">AI Engineer</span> focused on building <span className="font-semibold text-black dark:text-white">usable software</span>. I combine <span className="font-semibold text-black dark:text-white">Python-based machine learning (NLP, Computer Vision)</span> with <span className="font-semibold text-black dark:text-white">Next.js</span> to turn raw models into <span className="font-semibold text-black dark:text-white">functional, end-to-end applications</span>.
+                            Hi I&apos;m <span className="font-semibold text-black dark:text-white">Sameer</span>, an <span className="font-semibold text-black dark:text-white">AI Engineer</span> focused on building <span className="font-semibold text-black dark:text-white">usable software</span>. I combine <span className="font-semibold text-black dark:text-white">Python-based machine learning (NLP, Computer Vision)</span> with <span className="font-semibold text-black dark:text-white">Next.js</span> to turn raw models into <span className="font-semibold text-black dark:text-white">functional, end-to-end applications</span>.
                         </p>
                         <p>
                             I am from <span className="font-semibold text-black dark:text-white">Hajipur, Bihar</span>.
