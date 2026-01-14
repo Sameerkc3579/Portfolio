@@ -12,6 +12,7 @@ export default function Education() {
             t("Coursework.point1"),
             t("Coursework.point2"),
         ],
+        grade: 'CGPA: 8.92',
         achievements: [],
         skills: [] // User didn't specify skills for education, but I can add generic ones if needed. Leaving empty for now as per resume.
     };

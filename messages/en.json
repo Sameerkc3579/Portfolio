@@ -23,7 +23,7 @@
   "Projects": {
     "title": "My Projects",
     "description": "Take a look at what I've been building",
-    "kangri": "Neural Machine Translation (NMT) system for the low-resource Kangri language using M2M100.",
+    "kangri": "Neural Machine Translation (NMT) system for the low-resource language using M2M100.",
     "accident": "Real-time video analysis system for detecting vehicle accidents using OpenCV and Computer Vision.",
     "somato": "Frontend clone of the Zomato application with dynamic restaurant listings and shopping cart.",
     "status": "Deploy status"
@@ -48,10 +48,10 @@
     },
     "Responsibilities": {
       "title": "Responsibilities",
-      "point1": "Develop and fine-tune Machine Learning models.",
-      "point2": "Preprocess and analyze large datasets.",
-      "point3": "Deploy AI solutions to cloud platforms.",
-      "point4": "Collaborate with cross-functional teams.",
+      "point1": "Data Pipeline & Alignment: Curated and manually aligned a parallel dataset for a Himachali dialect, developing a custom cleaning pipeline using Regex to ensure data quality.",
+      "point2": "Architectural Analysis: Implemented and compared three distinct architectures: a custom Baseline Transformer (trained from scratch) versus fine-tuned multilingual models NLLB-200 and M2M-100. Also experimented with IndicTrans2 and mBART during the selection process.",
+      "point3": "Rigorous Evaluation: Benchmarked model performance using industry-standard metrics, specifically focusing on BLEU, chrF, and TER. Additionally calculated Perplexity, BERTScore, and F1 Score to ensure a holistic assessment of semantic accuracy and fluency.",
+      "point4": "Visualization: Utilized Graphviz to visualize model architectures and attention mechanisms.",
       "point5": "Research and implement SOTA algorithms.",
       "point6": "Optimize model performance and inference time.",
       "point7": "Build scalable data pipelines."

@@ -26,28 +26,7 @@ export default function Experience() {
 
 
 
-  const secondary = {
-    title: t("Secondary.title"),
-    company: t("Secondary.company"),
-    date: t('date.secondary'),
-    obligations: [
-      t("Responsibilities.point5"),
-      t("Responsibilities.point6"),
-      t("Responsibilities.point7"),
-    ],
-    achievements: [
-      t("Achievements.point1"),
-      t("Achievements.point2"),
-      t("Achievements.point3"),
-    ],
-    skills: [
-      { img: "/images/skills/angular.png", name: "Angular" },
-      { img: "/images/skills/ts.png", name: "TypeScript" },
-      { img: "/images/skills/scss.png", name: "SCSS" },
-      { img: "/images/skills/git.png", name: "Git" },
-      { img: "/images/skills/figma.png", name: "Figma" },
-    ]
-  };
+
 
 
   return (
@@ -64,7 +43,7 @@ export default function Experience() {
       </div>
       <div className="flex flex-col divide-y-[1px] gap-12">
         <ExperienceCard {...current} />
-        <ExperienceCard {...secondary} />
+
       </div>
       {/* <div className="flex gap-28 mt-24 xl:gap-0 lg:gap-10 xl:mt-10 lg:grid lg:grid-cols-1 ">
             {experiences.map((exp,i) => (

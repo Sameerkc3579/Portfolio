@@ -52,11 +52,7 @@ const Header = () => {
 
         <h1 className="text-6xl lg:text-5xl sm:text-5xl xs:text-3xl xxs:text-2xl font-bold flex items-center flex-col justify-center  leading-[60px] md:leading-snug text-nowrap md:text-wrap text-comment-grey w-fit">
           <motion.div variants={item} className="flex items-center gap-2 lg:gap-1 xs:gap-1 relative flex-wrap justify-center">
-            {t("iAm")} <span className="gradient_hero">Sameer Choudhary</span>
-
-            {/* 3. REMOVED PROFILE PICTURE PILL HERE */}
-
-            <span className="absolute -right-3 xs:-right-2">,</span>
+            {t("iAm")} <span className="gradient_hero">Sameer Choudhary,</span>
           </motion.div>
 
           <motion.div variants={item} className="flex items-center gap-2 lg:gap-1 xs:gap-1 flex-wrap justify-center">
@@ -95,8 +91,8 @@ const Header = () => {
 
         </motion.div>
 
-      </motion.div>
-    </section>
+      </motion.div >
+    </section >
   );
 };
 
