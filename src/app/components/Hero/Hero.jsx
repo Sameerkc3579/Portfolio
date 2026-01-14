@@ -72,7 +72,7 @@ const Header = () => {
 
         </h1>
         <motion.h6 variants={item} className="px-9 text-comment-grey pt-3 pb-8 max-w-[53rem] lg:text-base sm:text-sm xs:text-xs xxs:text-[10px]">
-          "I am a passionate AI-ML Engineer focused on Natural Language Processing and Robotics. I build intelligent solutions using Python, Deep Learning, and Next.js to solve real-world problems."
+          {t('hello')}
         </motion.h6>
         <motion.div variants={item} className="flex justify-center w-full items-center gap-4 mt-3 lg:text-sm sm:text-xs xs:text-[10px] xxs:text-[8px] flex-wrap xs:justify-center xs:gap-3">
           <a href="#contact" className=" dark:bg-black bg-white p-2 xxs:p-1 px-9 outline-1 outline-black/10 dark:outline-white/10 outline outline-offset-2 rounded-full hover:opacity-80 w-fit h-full align-middle shadow-inner shadow-black/15 dark:shadow-white/20">
