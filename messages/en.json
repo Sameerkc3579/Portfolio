@@ -39,8 +39,8 @@
     "title": "My Experience",
     "description": "professional journey",
     "Front": {
-      "title": "AI-ML Engineer",
-      "company": "Freelance"
+      "title": "Undergraduate Researcher",
+      "company": "(Advisor: Dr. Aruna Shukla)"
     },
     "Secondary": {
       "title": "Junior Data Scientist",
@@ -63,7 +63,7 @@
       "point3": "Deployed computer vision system for real-time monitoring."
     },
     "date": {
-      "current": "Jan 2024 - Present",
+      "current": "July 2025 - Present",
       "secondary": "2022 - 2024"
     }
   },
