@@ -30,7 +30,7 @@ const Header = () => {
   const t = useTranslations("Hero");
 
   const openResume = () => {
-    window.open('/resume.pdf', '_blank') // This opens the file you put in the public folder
+    window.open('/My Resume.pdf', '_blank') // This opens the file you put in the public folder
   }
   const scrambleSpeed = 0.5;
   const { ref: jp, replay: replayJp } = useScramble({
